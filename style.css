@@ -1,0 +1,27 @@
+:root{--navy:#12263f;--gold:#f2a900;--bg:#f4f6f9;--ink:#1b2430;--line:#d9dee6;--white:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+h1,h2{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .5em}a{color:var(--navy)}
+.wrap{width:min(1100px,92%);margin-inline:auto}.section{padding:2.5rem 0}
+.site-header{background:var(--navy);position:sticky;top:0;z-index:5}.bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.7rem 0;flex-wrap:wrap}
+.brand{color:#fff;text-decoration:none;font-weight:700;display:flex;align-items:center;gap:.6rem}.logo{background:var(--gold);color:var(--navy);padding:.2rem .5rem;border-radius:4px;font-weight:800}
+.nav{list-style:none;display:flex;gap:.3rem;margin:0;padding:0;flex-wrap:wrap}.nav a{color:#dbe4f0;text-decoration:none;padding:.4rem .8rem;border-radius:4px;display:block}
+.nav a:hover,.nav a.active{background:rgba(255,255,255,.14);color:#fff}.menu-btn{display:none;background:var(--gold);border:0;padding:.4rem .9rem;border-radius:4px;font-weight:700}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:var(--navy);color:#fff;padding:4rem 0}.hero-in{display:flex;gap:2rem;align-items:center;flex-wrap:wrap}.hero-in>div:first-child{flex:2 1 340px}
+.hero h1{font-size:clamp(2rem,5vw,3.2rem)}.btns{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.2rem}
+.btn{background:var(--gold);color:var(--navy);padding:.7rem 1.3rem;border-radius:4px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}.btn.ghost{background:transparent;color:#fff;border:2px solid #fff}
+.notice{flex:1 1 260px;background:#fff;color:var(--ink);padding:1.4rem;border-left:6px solid var(--gold);border-radius:4px}
+.page-hero{background:var(--navy);color:#fff;padding:2.2rem 0}.page-hero p{margin:0;color:#c9d6e6}
+.stats{list-style:none;display:flex;flex-wrap:wrap;gap:1rem;padding:0;margin:0}.stats li{flex:1 1 180px;background:#fff;border:1px solid var(--line);padding:1.2rem;border-radius:6px}
+.stats b{display:block;font-size:2rem;font-family:Georgia,serif;color:var(--navy)}.two{display:flex;gap:2rem;flex-wrap:wrap}.two>*{flex:1 1 320px}
+.cards{display:flex;flex-wrap:wrap;gap:1rem}.card{flex:1 1 290px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:1.2rem}.card h2,.card h3{font-size:1.2rem}
+dl{display:flex;flex-wrap:wrap;margin:0}dt{width:35%;font-weight:700}dd{width:65%;margin:0}.tag{display:inline-block;background:#e8eef7;padding:.1rem .6rem;border-radius:99px;font-size:.85rem}
+.filters{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin-bottom:1.2rem}input,select,textarea{font:inherit;padding:.55rem .7rem;border:1px solid #9aa7b8;border-radius:4px;width:100%;background:#fff}
+.filters input,.filters select{width:auto;min-width:200px}.chip{border:1px solid var(--navy);background:#fff;color:var(--navy);padding:.4rem 1rem;border-radius:99px;cursor:pointer;font:inherit}.chip.on{background:var(--navy);color:#fff}
+.gallery{display:flex;flex-wrap:wrap;gap:.8rem}.tile{margin:0;flex:1 1 220px;height:170px;border-radius:6px;display:flex;align-items:flex-end;padding:.7rem;color:#fff;font-weight:600}
+.t0{background:linear-gradient(135deg,#12263f,#3a5a8c)}.t1{background:linear-gradient(135deg,#1e6b5c,#4aa58f)}.t2{background:linear-gradient(135deg,#8a3b12,#d9822b)}.t3{background:linear-gradient(135deg,#4b2a6b,#8e5fc0)}
+form label{display:block;margin:.8rem 0 .25rem;font-weight:600}.err{color:#b00020;display:block;min-height:1.2em}input.bad,textarea.bad{border-color:#b00020}#ok{color:#0a6b2d;font-weight:700}
+iframe{width:100%;height:340px;border:0;border-radius:6px}.muted{color:#5b6777;font-size:.9rem;margin-top:1rem}
+.site-footer{background:#0c1a2b;color:#c9d6e6;padding:1.5rem 0;margin-top:2rem}.foot{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}.foot p{margin:.2rem 0}
+@media(max-width:700px){.menu-btn{display:block}nav{width:100%;display:none}nav.open{display:block}.nav{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto;transition:none!important}}
