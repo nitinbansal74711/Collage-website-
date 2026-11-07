@@ -1,4 +1,4 @@
-:root{--navy:#12263f;--gold:#f2a900;--bg:#f4f6f9;--ink:#1b2430;--line:#d9dee6;--white:#fff}
+[hidden]{display:none!important}:root{--navy:#12263f;--gold:#f2a900;--bg:#f4f6f9;--ink:#1b2430;--line:#d9dee6;--white:#fff}
 *{box-sizing:border-box}body{margin:0;font-family:"Segoe UI",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
 h1,h2{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .5em}a{color:var(--navy)}
 .wrap{width:min(1100px,92%);margin-inline:auto}.section{padding:2.5rem 0}
